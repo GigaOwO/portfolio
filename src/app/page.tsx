@@ -79,7 +79,7 @@ export default function Home() {
 
   return (
     <div ref={containerRef} className="scroll-container">
-      <section className="panel about-me-section h-screen">
+      <section className="panel about-me-section h-screen bg-cyan-300">
         <div className="container mx-auto px-5 h-full">
           <div className="pt-8 mb-8">
             <h1 className="font-bold text-5xl">Portfolio</h1>
@@ -122,7 +122,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="panel h-screen flex items-center justify-center">
+      <section className="panel h-screen flex items-center justify-center bg-orange-300">
         <div className="container mx-auto px-5">
           <h2 className="font-bold text-4xl mb-8 text-center">Skills</h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -133,7 +133,7 @@ export default function Home() {
                 <p><span className="font-semibold">Backend:</span> JavaScript, PHP, Laravel, Python, Django</p>
               </div>
             </div>
-            <div className="bg-amber-100 backdrop-blur-sm rounded-lg p-6">
+            <div className="bg-pink-100 backdrop-blur-sm rounded-lg p-6">
               <h3 className="font-bold text-xl mb-4">Management</h3>
               <p>チーム開発のリーダー経験があります。</p>
             </div>
