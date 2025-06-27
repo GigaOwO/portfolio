@@ -11,7 +11,6 @@ import { useRef } from "react";
 export default function Home() {
   const containerRef = useRef<HTMLDivElement | null>(null);
 
-  // useGSAP自体はregisterPlugin不要なのでgsap, ScrollTrigger, ScrollToPluginのみ登録
   gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
   useGSAP(() => {
